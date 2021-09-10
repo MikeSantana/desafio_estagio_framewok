@@ -1,0 +1,89 @@
+:root {
+    --color-darkslateblue: #603474;
+ }
+
+#header {
+    display: flex;
+    height: 60px;
+    margin-bottom: 100px;
+    
+}
+
+#logo a {
+    font-size: 40px;
+    color: var(--color-darkslateblue);
+    padding: 4px 8px;
+    font-weight: bolder;
+}
+
+#links a:hover {
+    color: #a44fcc;
+}
+nav {
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+#links a {
+    margin-left: 20px;
+    font-size: 0.9em;
+    color: var(--color-darkslateblue);
+    padding: 4px 8px;
+    font-weight: 600;
+
+}
+
+/* title-albuns */
+
+#title-todos {
+    font-size: 0.9em;
+    color: var(--color-darkslateblue);
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+/* Pesquisar por userId e lista completa */
+
+#id-value {
+    height: 30px;
+    width: 120px;
+    padding: 0px 12px 0px 12px;
+    border-color: var(--color-darkslateblue);
+    border-radius: 5px;
+    border-style: dashed;
+    border-width: 2px;
+    color: var(--color-darkslateblue);
+}
+
+#submit-button, #show-all {
+    background: var(--color-darkslateblue);
+    color: #ffffff;
+    height: 34px;
+    padding: 0px 12px 0px 12px;
+    border-style: solid;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+#submit-button:hover , #show-all:hover {
+    background: #a44fcc;
+    border: #a44fcc;
+}
+
+#container {
+    display: flex;
+}
+
+#search {
+    display: flex;
+    margin: 0 auto 40px auto;
+   
+}
